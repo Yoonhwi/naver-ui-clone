@@ -1,0 +1,6 @@
+.outer_box {
+  height: 2017px;
+  padding-bottom: 60px;
+  display: flex;
+  gap: 30px;
+}

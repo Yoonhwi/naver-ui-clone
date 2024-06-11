@@ -1,0 +1,46 @@
+.outer_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 164px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 21px 20px 18px;
+  gap: 14px;
+  box-sizing: border-box;
+}
+
+.login_title {
+  font-size: 14.7px;
+}
+
+.login_box {
+  background-color: #03c75a;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+  color: white;
+}
+
+.login_logo {
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -142px -270px;
+  background-repeat: no-repeat;
+  width: 72px;
+  height: 14px;
+  display: inline-block;
+  margin: 3px 8px 0 0;
+  vertical-align: top;
+}
+
+.login_more {
+  display: flex;
+  gap: 8px;
+  font-size: 13.65px;
+  color: rgb(96, 96, 96);
+}

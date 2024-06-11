@@ -1,0 +1,5 @@
+.outer_box {
+  background-color: #f5f6f7;
+  border-top: 1px solid var(--color_border_in_divider);
+  height: 430.2px;
+}

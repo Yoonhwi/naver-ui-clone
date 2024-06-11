@@ -1,0 +1,56 @@
+.outer_box {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.myview_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 164px;
+}
+
+.ad_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 240px;
+}
+
+.weather_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 236px;
+}
+
+.stock_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 236px;
+}
+
+.ad2_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 80px;
+}
+
+.widget_board {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 806px;
+  background-color: rgb(244, 246, 250);
+}
+
+.ad3_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  flex: 1;
+}

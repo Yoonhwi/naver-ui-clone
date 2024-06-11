@@ -1,0 +1,82 @@
+.outer_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.search_box {
+  display: flex;
+  height: 100%;
+  width: 706px;
+  border-radius: 33px;
+  border: 1px solid #03c75a;
+  align-items: center;
+}
+
+.search_input {
+  outline: none;
+  border: 0;
+  height: 58px;
+  width: 480px;
+}
+
+.search_logo {
+  width: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.logo_box {
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-position: -396px -200px;
+  background-size: 451px 429px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+}
+
+.search_icons {
+  width: 159px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-right: 20px;
+  justify-content: end;
+}
+
+.icons_keyboard {
+  content: "";
+  display: block;
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -265px -270px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 14px;
+}
+
+.icons_arrow {
+  content: "";
+  display: block;
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -123px -98px;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 6px;
+}
+
+.icons_search {
+  content: "";
+  display: block;
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -368px -305px;
+  background-repeat: no-repeat;
+  width: 26px;
+  height: 26px;
+}

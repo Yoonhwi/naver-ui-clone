@@ -1,0 +1,48 @@
+.outer_box {
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+  height: 426px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.row_top {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header {
+  font-size: 16.8px;
+  display: flex;
+  gap: 11px;
+  color: rgba(8, 8, 8, 0.5);
+  list-style: none;
+  font-weight: 800;
+  margin: 0;
+  padding: 0;
+}
+
+.header_subview {
+  box-sizing: border-box;
+  background-color: rgb(245, 247, 248);
+  border-radius: 4px;
+  height: 50px;
+  padding: 12px 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.subview_triangle {
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -153px -176px;
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 6px;
+  display: inline-block;
+  margin: 10px 0 0 5px;
+  vertical-align: top;
+}
