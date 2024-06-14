@@ -1,4 +1,5 @@
 import { ColumnLeftNews } from "./column-left.news";
+import { ColumnLeftShop } from "./column-left.shop";
 import Styles from "./index.module.css";
 const MainColumnLeft = () => {
   return (
@@ -12,7 +13,7 @@ const MainColumnLeft = () => {
         />
       </div>
       <ColumnLeftNews />
-      <div className={Styles.shop_box}></div>
+      <ColumnLeftShop />
       <div className={Styles.feed_box}></div>
     </div>
   );

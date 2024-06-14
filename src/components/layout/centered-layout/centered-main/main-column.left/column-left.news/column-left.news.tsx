@@ -1,3 +1,4 @@
+import { DividerDot, DividerSlash } from "@/components/common";
 import Styles from "./index.module.css";
 
 const Companys = [
@@ -44,7 +45,20 @@ const ColumnLeftNews = () => {
       <div className={Styles.row_top}>
         <ul className={Styles.header}>
           {ColumnHeader.map((item, i) => {
-            return <li key={i}>{item}</li>;
+            return (
+              <>
+                <li
+                  key={i}
+                  style={{
+                    color: i === 0 ? "rgb(8, 8, 8)" : "rgb(8,8,8,0.5)",
+                  }}
+                >
+                  {item}
+                </li>
+                {i !== ColumnHeader.length - 1 &&
+                  (i === 0 ? <DividerDot /> : <DividerSlash />)}
+              </>
+            );
           })}
         </ul>
         <div className={Styles.header_subview}>
@@ -73,7 +87,17 @@ const ColumnLeftNews = () => {
         <div className={Styles.paging_icon_area}>
           <i className={Styles.paging_icon} />
         </div>
-        <text>언론사 더보기 6/21</text>
+        <div
+          style={{
+            display: "flex",
+            gap: "4px",
+            fontWeight: 800,
+            color: "black",
+          }}
+        >
+          <text style={{ color: "rgb(58, 103, 234)" }}>언론사</text>
+          <text>더보기 14/21</text>
+        </div>
         <div className={Styles.paging_icon_area}>
           <i className={Styles.paging_icon} style={{ transform: "none" }} />
         </div>

@@ -1,0 +1,86 @@
+.outer_box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  border: 1px solid rgb(227, 229, 232);
+  overflow: hidden;
+}
+
+.row_top {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header {
+  display: flex;
+  gap: 12px;
+  color: rgba(8, 8, 8, 0.5);
+  font-size: 16.8px;
+  font-weight: 800;
+}
+
+.body {
+  display: flex;
+  gap: 16px;
+}
+
+.body_left {
+  width: 248px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.body_right {
+  flex: 1;
+  height: 100%;
+}
+
+.row_center {
+  padding: 14px 20px 18px 20px;
+}
+
+.text_area {
+  padding-left: 20px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(245, 247, 248);
+  border: 1px solid #f5f7f8;
+  border-radius: 4px;
+  overflow: hidden;
+  gap: 6px;
+  font-size: 14.7px;
+}
+
+.row_bottom {
+  border-top: 1px solid rgb(227, 229, 232);
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  font-size: 13.65px;
+}
+
+.paging_icon_area {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid rgb(218, 220, 223);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paging_icon {
+  background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
+  background-size: 451px 429px;
+  background-position: -169px -417px;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 12px;
+  transform: rotate(180deg);
+}

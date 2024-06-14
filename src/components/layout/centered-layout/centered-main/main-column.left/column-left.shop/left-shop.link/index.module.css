@@ -1,0 +1,17 @@
+.left_link {
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  background-color: rgba(245, 248, 251);
+  padding: 9px 11px 4px 11px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  height: 88px;
+}
+
+.link_row {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+}

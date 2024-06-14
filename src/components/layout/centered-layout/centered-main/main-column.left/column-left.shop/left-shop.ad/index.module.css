@@ -1,0 +1,6 @@
+.left_ad {
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  height: 146px;
+}
