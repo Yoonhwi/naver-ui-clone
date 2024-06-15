@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  gap: 12px;
+}
+
+.header_item {
+  font-size: 16.8px;
+  color: rgba(8, 8, 8, 0.5);
+  font-weight: 800;
+}

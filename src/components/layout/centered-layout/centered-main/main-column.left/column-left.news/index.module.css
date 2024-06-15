@@ -15,16 +15,6 @@
   gap: 20px;
 }
 
-.header_subview {
-  box-sizing: border-box;
-  background-color: rgb(245, 247, 248);
-  border-radius: 4px;
-  height: 50px;
-  padding: 12px 20px;
-  display: flex;
-  gap: 10px;
-}
-
 .subview_triangle {
   background-image: url(https://pm.pstatic.net/resources/asset/sp_main.9511cab7.png);
   background-size: 451px 429px;

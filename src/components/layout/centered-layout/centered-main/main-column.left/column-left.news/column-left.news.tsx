@@ -1,3 +1,4 @@
+import { GrayTextBox } from "@/components/common";
 import Styles from "./index.module.css";
 import NewsList from "./news.list/news.list";
 
@@ -35,16 +36,16 @@ const ColumnLeftNews = () => {
     <div className={Styles.outer_box}>
       <div className={Styles.row_top}>
         <NewsList />
-        <div className={Styles.header_subview}>
+        <GrayTextBox>
           <div className={Styles.subview_category}>
-            <text>전체언론사</text>
+            <span>전체언론사</span>
             <i className={Styles.subview_triangle} />
           </div>
-          <text>
+          <span>
             연합뉴스 김도훈호 한국축구, 중국과 북중미 월드컵 예선 전반0-0
-          </text>
+          </span>
           <div className={Styles.subview_home}>뉴스스탠드 홈</div>
-        </div>
+        </GrayTextBox>
 
         <div className={Styles.news_table}>
           {repeatedCompanys.map((company, i) => {
