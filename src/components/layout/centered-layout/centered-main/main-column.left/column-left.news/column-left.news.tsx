@@ -1,5 +1,5 @@
-import { DividerDot, DividerSlash } from "@/components/common";
 import Styles from "./index.module.css";
+import NewsList from "./news.list/news.list";
 
 const Companys = [
   {
@@ -30,37 +30,11 @@ const Companys = [
 
 const repeatedCompanys = [...Companys, ...Companys, ...Companys, ...Companys];
 
-const ColumnHeader = [
-  "뉴스스탠드",
-  "언론사편집",
-  "엔터",
-  "스포츠",
-  "경제",
-  "쇼핑투데이",
-];
-
 const ColumnLeftNews = () => {
   return (
     <div className={Styles.outer_box}>
       <div className={Styles.row_top}>
-        <ul className={Styles.header}>
-          {ColumnHeader.map((item, i) => {
-            return (
-              <>
-                <li
-                  key={i}
-                  style={{
-                    color: i === 0 ? "rgb(8, 8, 8)" : "rgb(8,8,8,0.5)",
-                  }}
-                >
-                  {item}
-                </li>
-                {i !== ColumnHeader.length - 1 &&
-                  (i === 0 ? <DividerDot /> : <DividerSlash />)}
-              </>
-            );
-          })}
-        </ul>
+        <NewsList />
         <div className={Styles.header_subview}>
           <div className={Styles.subview_category}>
             <text>전체언론사</text>

@@ -2,6 +2,7 @@ const DividerDot = () => {
   return (
     <div
       style={{
+        width: "5px",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",

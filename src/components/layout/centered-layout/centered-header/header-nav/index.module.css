@@ -2,24 +2,3 @@
   display: flex;
   justify-content: space-between;
 }
-
-.flex_box {
-  display: flex;
-  gap: 4px;
-  margin: 0;
-  padding: 0;
-}
-
-.btn_area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
-  &:hover {
-    background-color: #e7eced;
-    border-radius: 50%;
-  }
-}

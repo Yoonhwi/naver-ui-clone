@@ -1,6 +1,8 @@
+import { ColumnLeftFeeds } from "./column-left.feeds";
 import { ColumnLeftNews } from "./column-left.news";
 import { ColumnLeftShop } from "./column-left.shop";
 import Styles from "./index.module.css";
+
 const MainColumnLeft = () => {
   return (
     <div className={Styles.outer_box}>
@@ -14,7 +16,7 @@ const MainColumnLeft = () => {
       </div>
       <ColumnLeftNews />
       <ColumnLeftShop />
-      <div className={Styles.feed_box}></div>
+      <ColumnLeftFeeds />
     </div>
   );
 };
